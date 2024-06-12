@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> next.js learning route</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="text/javascript">
+        const  app=document.getElementById('app');
+        // create a new h1 element
+        const header = document.createElement('h1');
+        //Create a text node for the H1 Element
+        const text = 'Develop. Learn. Thinking.';
+        const headerContent=document.createTextNode(text);
+        // append headerContent to h1
+        header.appendChild(headerContent);
+        // Place H1 element to <div>
+        app.appendChild(header);
+    </script>
+</body>
+</html>
